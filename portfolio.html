@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | HOON.LIFE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; }
+        .project-card:hover { transform: translateY(-5px); transition: all 0.3s; }
+    </style>
+</head>
+<body class="text-gray-900">
+
+    <nav class="py-8 px-6 max-w-6xl mx-auto flex justify-between items-center">
+        <a href="/" class="text-xl font-bold tracking-tighter">HOON.LIFE</a>
+        <a href="/" class="text-sm font-medium hover:text-blue-600">← Back to Home</a>
+    </nav>
+
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-black mb-4">PORTFOLIO</h2>
+        <p class="text-gray-500 mb-12">AI 보안 엔지니어가 되기 위해 걸어온 기록들입니다.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="project-card bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col">
+                <span class="text-xs font-bold text-blue-500 uppercase tracking-widest mb-2">AI & Vision</span>
+                <h4 class="text-xl font-bold mb-4">축구 하이라이트 추출 AI</h4>
+                <p class="text-gray-600 text-sm mb-8 flex-grow leading-relaxed">객체 탐지 기반 하이라이트 생성 시스템</p>
+                <div class="flex gap-3">
+                    <a href="지훈님의_노션_링크1" target="_blank" class="flex-1 text-center py-2 bg-gray-950 text-white rounded-lg text-xs font-bold">Notion</a>
+                    <a href="지훈님의_깃허브_링크1" target="_blank" class="flex-1 text-center py-2 border border-gray-200 rounded-lg text-xs font-bold">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col">
+                <span class="text-xs font-bold text-green-500 uppercase tracking-widest mb-2">Cloud Security</span>
+                <h4 class="text-xl font-bold mb-4">안심 처리 시스템 (CWPP)</h4>
+                <p class="text-gray-600 text-sm mb-8 flex-grow leading-relaxed">비정형 데이터 객체 인식 및 보안 처리</p>
+                <div class="flex gap-3">
+                    <a href="지훈님의_노션_링크2" target="_blank" class="flex-1 text-center py-2 bg-gray-950 text-white rounded-lg text-xs font-bold">Notion</a>
+                    <a href="지훈님의_깃허브_링크2" target="_blank" class="flex-1 text-center py-2 border border-gray-200 rounded-lg text-xs font-bold">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col">
+                <span class="text-xs font-bold text-red-500 uppercase tracking-widest mb-2">Security Tech</span>
+                <h4 class="text-xl font-bold mb-4">Qshing 탐지 프로젝트</h4>
+                <p class="text-gray-600 text-sm mb-8 flex-grow leading-relaxed">QR 코드 피싱 방지 및 탐지 기술 연구</p>
+                <div class="flex gap-3">
+                    <a href="#" class="flex-1 text-center py-2 bg-gray-950 text-white rounded-lg text-xs font-bold">Notion</a>
+                    <a href="#" class="flex-1 text-center py-2 border border-gray-200 rounded-lg text-xs font-bold">GitHub</a>
+                </div>
+            </div>
+
+            </div>
+    </section>
+
+    <footer class="py-20 text-center text-gray-400 text-xs">
+        © 2026 HOON.LIFE
+    </footer>
+</body>
+</html>
